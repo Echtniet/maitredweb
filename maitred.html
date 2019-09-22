@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Maitre D</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    	<div class="row">
+            <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 well">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <h1>Maitre D</h1>
+                    </div>
+                    <form>                        
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-3 col-xs-3">
+                                    <label for="fname">Total:</label> 
+                                </div>
+                                <div class="col-md-9 col-xs-9">
+                                   <input type="number" name="total" id="total" class="form-control input-sm" placeholder="enter total">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <br>
+                            <div class="form-group">
+                                <div class="col-md-4 col-xs-4">
+                                    <label id="tip">Tip:</label> 
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <label for="rate">Rate:</label> 
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                   <input type="number" name="rate" id="rate" class="form-control input-sm" placeholder="enter total">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="col-md-12 col-xs-12">
+                                    <label id="tax">Tax:</label> 
+                                </div>
+                                <br>
+                                <div class="col-md-12 col-xs-12">
+                                    <label id="gtotal">Grand total:</label> 
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <br>
+                                    <button type="button" id="calc" class="btn btn-default center-block">Calculate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script src="js/scripts.js"></script>
+                
+            </div>
+        </div>
