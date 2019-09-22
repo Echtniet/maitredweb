@@ -5,7 +5,7 @@ function calcBill(total, rate){
 	rate = parseFloat(rate);
 	if (!isNaN(total) && !isNaN(rate)) {
 		let cTax = total * tax;
-		let cTip = total * (rate / 100);
+		let cTip = total * (rate / 100.0);
 		document.querySelector("#tax").innerHTML  = "Tax: " + cTax;
 		document.querySelector("#tip").innerHTML  = "Tip: " + cTip;
 		document.querySelector("#gtotal").innerHTML  = "Grand total: " + (cTax + cTip + total);
